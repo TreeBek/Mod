@@ -17,7 +17,7 @@ public class Blocks {
 	public static Block Enchanter;
 	public static Block PulverizedStone;
  	
-		public static void Main(){
+		public static void Init(){
 			
 			//Blocks
 			HardenedWood = new BlockHardenedWood(BlockConfig.HardwoodId, Material.wood).setUnlocalizedName("Hardwood").setHardness(4.0F).setResistance(10.0F);

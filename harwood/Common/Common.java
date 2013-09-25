@@ -44,8 +44,8 @@ public class Common {
 		
 		proxy.registerRenderThings();
 	
-		Blocks.Main();
-		Items.Main();
+		Blocks.Init();
+		Items.Init();
 		HarwoodRecipesBench.Main();
 	    HarwoodRecipesFurnace.Main();
 		
